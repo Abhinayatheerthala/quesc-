@@ -1,0 +1,78 @@
+1. Write a program to read in two integers and perform the following operations on them: addition, subtraction, multiplication, division, and modulo.
+2. Write a program to read in three integers and compute the average of the three numbers. Use the assignment operator to store the result in a variable.
+3. Write a program to read in two integers and determine if they are equal or not.
+4. Write a program to read in two floating-point numbers and perform the following operations on them: addition, subtraction, multiplication, and division.
+5. Write a program to read in an integer and determine if it is even or odd.
+6. Write a program to read in an integer and determine if it is positive, negative, or zero.
+7. Write a program to read in a character and determine if it is a vowel or a consonant.
+8. Write a program to read in two integers and use the conditional operator to determine which number is greater.
+9. Write a program to read in two integers and swap their values using the bitwise XOR operator.
+10. Write a program to read in a floating-point number and round it to the nearest integer using the floor and ceil functions.
+11. Write a program to read in three integers and determine which one is the maximum using the ternary conditional operator.
+12. Write a program to read in two integers and determine if they are equal or not using the ternary conditional operator.
+13. Write a program to read in an integer and determine if it is divisible by 3 or not using the ternary conditional operator.
+14. Write a program to print the numbers from 1 to 10 using a for loop.
+15. Write a program to read in an integer and print the multiplication table for that number using a for loop.
+16. Write a program to read in an integer and print the factorial of that number using a for loop.
+17. Write a program to read in an integer and determine if it is a prime number or not using a for loop.
+18. Write a program to read in an integer and print the Fibonacci series up to that number using a for loop.
+19. Write a program to read in an integer and print the sum of all its digits using a while loop.
+20. Write a program to read in an integer and determine if it is a palindrome or not using a while loop.
+21. Write a program to read in two integers and compute their greatest common divisor using a do-while loop.
+22. Write a program to read in an integer and determine if it is an Armstrong number or not.
+23. Write a program to read in an integer and determine if it is a perfect number or not.
+24. Write a program to read in an integer and determine if it is a strong number or not.
+25. Write a program to read in an integer and determine if it is a happy number or not.
+26. Write a program to read in an integer and determine if it is a Harshad number or not.
+27. Write a program to read in an integer and determine if it is a neon number or not.
+28. Write a program to read in an integer and determine if it is a buzz number or not.
+29. Write a program to read in an integer and determine if it is a narcissistic number or not.
+30. Write a program to read in an integer and determine if it is a abundant number or not.
+31.Write a program to print the following pattern using nested for loops:
+*
+**
+***
+****
+*****
+32.Write a program to print the following pattern using nested for loops:
+1
+22
+333
+4444
+55555
+33.Write a program to print the following pattern using nested for loops: 
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+34.Write a program to print the following pattern using nested for loops:
+    1
+   121
+  12321
+ 1234321
+123454321
+35.Write a program to print the following pattern using nested for loops: 
+    1
+   232
+  34543
+ 4567654
+567898765
+101. Write a C++ program to reverse the elements of an array.
+102. Write a C++ program to insert an element into an array at a specific position.
+103. Write a C++ program to delete an element from an array at a specific position.
+104. Write a C++ program to find the sum of elements in an array.
+105. Write a C++ program to find the average of elements in an array.
+106. Write a C++ program to find the second largest element in an array.
+107. Write a C++ program to find the number of occurrences of a value in an array.
+108. Write a C++ program to merge two arrays into a single array.
+109. Write a C++ program to create a dynamic array using pointers and display its values.
+110. Write a C++ program to create a dynamic two-dimensional array using pointers and display its values.
+111. Write a C++ program to add 2 matrics.
+112. Write a C++ program to multiply 2 matrics.
+113. Write a C++ program find sum of diagonals of the matrics
+
