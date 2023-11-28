@@ -1,0 +1,7 @@
+94. Write a C++ program to demonstrate the use of try-catch blocks for handling exceptions.
+95. Write a C++ program to demonstrate the use of multiple catch blocks for handling different types of exceptions.
+96. Write a C++ program to demonstrate the use of the throw keyword to throw an exception.
+97. Write a C++ program to demonstrate the use of the standard exception class for handling exceptions.
+98. Write a C++ program to demonstrate the use of user-defined exceptions for handling custom exceptions.
+99. Write a C++ program to demonstrate the use of nested try-catch blocks for handling exceptions.
+100. Write a C++ program to demonstrate the use of the finally block for handling exceptions.
