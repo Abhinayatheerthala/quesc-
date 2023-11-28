@@ -1,0 +1,19 @@
+60. Write a C++ program to overload the + operator to add two complex numbers.
+61. Write a C++ program to overload the ++ operator to increment a variable.
+62. Write a C++ program to overload the << operator to print the contents of a user-defined class.
+63. Write a C++ program to overload the == operator to compare two objects of a user-defined class.
+64. Write a C++ program to overload the [] operator to access the elements of an array using an index.
+65. Write a C++ program to overload the * operator to multiply two matrices.
+66. Write a C++ program to overload the () operator to call a function with arguments.
+67. Write a C++ program to overload the - operator to subtract two complex numbers.
+68. Write a C++ program to overload the += operator to add two objects of a user-defined class.
+69. Write a C++ program to overload a function to add two integer numbers and two floating-point numbers separately.
+70. Write a C++ program to overload a function to find the maximum value from two integer numbers, two floating-point numbers, and two characters separately.
+71. Write a C++ program to overload a function to concatenate two strings and two character arrays separately.
+72. Write a C++ program to overload a function to calculate the area of a square, a rectangle, and a circle separately.
+73. Write a C++ program to overload a function to calculate the sum of two matrices and two arrays separately.
+74. Write a C++ program to overload a function to print the contents of an integer array, a double array, and a character array separately.
+75. Write a C++ program to overload a function to find the factorial of an integer number and the factorial of a floating-point number separately.
+76. Write a C++ program to overload a function to sort an integer array and a double array separately.
+77. Write a C++ program to overload a function to calculate the power of an integer number and the power of a floating-point number separately.
+78. Write a C++ program to overload a function to find the absolute value of an integer number and the absolute value of a floating-point number separately.
