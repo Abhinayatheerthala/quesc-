@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+class rectangle{
+  public:
+  float length,bredth;
+  rectangle(){
+cout<<"Default Constructor";
+ cin>>length;
+ cin>>bredth;
+ cout<<"\nArea :"<<length*bredth;
+  }
+  public:
+  ~rectangle(){
+    cout<<"\nDestructor is Introduced";
+  }
+  };
+int main(){
+  rectangle box;
+  return 0;
+}
