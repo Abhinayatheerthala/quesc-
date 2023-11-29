@@ -1,0 +1,25 @@
+#include<iostream>
+#include<string>
+using namespace std;
+class Student{
+  public:
+  string name;
+  int Roll;
+  Student(string na, int no){
+name = na;
+Roll = no;
+  }
+void disp(){
+cout<<"Student Name:"<<name<<"\n";
+cout<<"Student Roll.no:"<<Roll;
+}
+  public:
+  ~Student(){
+    cout<<"\nDestructor is Introduced";
+  }
+  };
+int main(){
+ Student Jk("LEO",21);
+Jk.disp();
+  return 0;
+}
