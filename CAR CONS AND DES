@@ -1,0 +1,48 @@
+#include <iostream>
+#include <string>
+using namespace std;
+class Car {
+private:
+    string ModelName;
+    double cost;
+    int Modelno;
+    int yearOfRelease;
+
+public:
+    
+    Car(string name,double price, int no,int year) {
+        ModelName = name;
+        cost = price;
+        Modelno = no;
+        yearOfRelease = year;
+    }
+
+   
+   Car(Car &other) {
+        ModelName = other.ModelName;
+        cost = other.cost;
+        Modelno = other.Modelno;
+        yearOfRelease = other.yearOfRelease;
+    }
+   ~Car(){
+        cout << "Destroyed Car "<<endl;
+    }
+
+    void displayInfo() {
+        cout << "Model Name: " <<ModelName << endl;
+        cout << "Cost: " << cost << endl;
+        cout << "Modelno: " << Modelno<< endl;
+        cout << "Year of Release: " << yearOfRelease << endl;
+    }
+};
+
+int main() {
+	cout<<"Parameterized Constructor:"<<endl;
+    Car C2("Swift",12.99, 224,2004);
+    C2.displayInfo();
+    cout<<endl;
+	cout<<"Copy Constructor: "<<endl;
+    Car C3 = C2; 
+    C3.displayInfo();
+  return 0;
+}
