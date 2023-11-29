@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+class Animal {
+public:
+    virtual void eat() {
+        cout << "The animal is eating.\n";
+    }
+};
+
+class Herbivore : public Animal {
+public:
+    void eat() {
+        cout << "The herbivore is eating grass.\n";
+    }
+};
+
+class Carnivore : public Animal {
+public:
+    void eat()  {
+        cout << "The carnivore is eating meat.\n";
+    }
+};
+
+int main() {
+    Animal *a;
+    Herbivore b;
+   a=&b;
+  a->eat();
+   
+}

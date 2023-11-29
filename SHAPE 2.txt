@@ -1,0 +1,64 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+class Shape {
+public:
+   double radius;
+  double height;
+   virtual double area()
+   {
+   return 0;
+}
+
+  
+};
+
+class Sphere : public Shape {
+public:
+    
+    void get()
+    {
+      cin>>radius;
+    }
+    double area()  {
+        return 4*(3.14)*radius*radius;
+    }
+
+    double volume()  {
+        return (4.0 / 3.0) * (3.14)* pow(radius, 3);
+    }
+};
+
+class Cylinder : public Shape {
+public:
+
+    double height;
+   
+  void get1()
+  {
+    cin>>height;
+    cin>>radius;
+  }
+    double area() {
+    return 2 *(3.14)*radius*(radius + height); 
+
+    }
+
+    double volume() {
+        return (3.14)*radius*radius*height;
+    }
+};
+
+int main() {
+  Shape *s;
+  Sphere a;
+  s=&a;
+  a.get();
+  cout<<s->area()<<endl;
+  Cylinder b;
+  b.get1();
+  s=&b;
+  cout<<s->area()<<endl;
+  
+    
+}

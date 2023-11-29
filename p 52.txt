@@ -1,0 +1,57 @@
+#include <iostream>
+using namespace std;
+class Employee {
+public :
+    int id;
+    double salary;
+    virtual double calculatePay() {
+      return salary;
+    }
+
+    void printEmployee() {
+        cout <<  calculatePay() << endl;
+    }
+};
+
+class Manager : public Employee {
+public :
+    double bonus;
+   void get2()
+   {
+     cin>>bonus;
+   }
+  void get()
+    {
+      cin>>id;
+      cin>>salary;
+  }
+    double calculatePay()  {
+        cout<<(salary + bonus);
+       return 0;
+    }
+};
+
+class Engineer : public Employee {
+public:
+    int hours;
+  
+    void get1()
+    {
+      cin>>hours;
+    }
+    double calculatePay()  {
+        return salary * hours;
+    }
+};
+
+int main() {
+  Employee *a;
+  Manager b;
+  b.get2();
+  b.get();
+  Engineer c;
+  c.get1();
+  a=&b;
+  a->calculatePay();
+   
+}

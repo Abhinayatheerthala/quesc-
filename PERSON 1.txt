@@ -1,0 +1,37 @@
+#include <iostream>
+#include <string>
+using namespace std;
+class Person {
+public:
+
+    virtual void greet() {
+        cout << "Hello, I'm a Person!" << endl;
+    }
+};
+
+class Student : public Person {
+public:
+    void greet() {
+        cout << "Hello, I'm a Student!" <<endl;
+    }
+};
+
+class Teacher : public Person {
+public:
+    void greet()  {
+        cout << "Hello, I'm a Teacher!" << endl;
+    }
+};
+
+int main() {
+    Person* p;
+    Student k;
+    p=&k;
+    p->greet();
+    Teacher m;
+    p=&m;
+    p->greet();
+    
+    
+    return 0;
+}

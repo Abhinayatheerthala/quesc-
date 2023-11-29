@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+using namespace std;
+class Animal {
+public:
+
+    virtual void move() {
+        cout << "The animal moves!" << endl;
+    }
+};
+
+class Bird : public Animal {
+public:
+    void move() {
+        cout << "The bird flies!" << endl;
+    }
+};
+
+class Fish : public Animal {
+public:
+    void move()  {
+        cout << "The fish swims!" << endl;
+    }
+};
+
+int main() {
+    Animal* a;
+   Bird b;
+  a=&b;
+  a->move();
+   Fish c;
+   a=&c;
+   a->move();
+   
+ 
+}
