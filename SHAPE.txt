@@ -1,51 +1,58 @@
-#include <iostream>
-#include <string>
+#include<iostream>
 using namespace std;
-class Shape {
-public:
-    double w;
-    double h;
-  double r;
-    virtual double area()
-    {
-      return 0;
-    }
+class Shape
+{
+	protected:
+		float Height;
+		float Width;
+		float Radius;
+	public:
+		virtual void calculateArea()=0;
+		virtual void calculatePerimeter()=0;
+		void getRect()
+{
+	cin>>Height;
+	cout<<"Enter the Height : "<<Height<<endl;
+	cin>>Width;
+	cout<<"Enter the Width : "<<Width<<endl;
+}
+	void getCir()
+{
+    cin>>Radius;
+	cout<<"Enter the Radius : "<<Radius<<endl;
+}
 };
-
-class Rectangle : public Shape {
-public:
-   void get1()
-   {
-     cin>>w;
-     cin>>h;
-   }
-    double area()  {
-        return w* h;
-    }
-
+class Rectangle: public Shape{
+	public:
+	void calculateArea(){
+		getRect();
+		cout<<"Area of the Rectangle :"<<Height*Width<<endl;
+	}
+	void calculatePerimeter(){
+		getRect();
+		cout<<"Perimeter of the Rectangle :"<<2*(Height+Width)<<endl;
+	}
 };
-
-class Circle : public Shape {
-public:
-  void get2()
-  {
-    cin>>r;
-  }
-
-    double area() {
-        return 3.14 * r * r;
-    }
-
+class Circle: public Shape{
+	public:
+	void calculateArea(){
+		getCir();
+		cout<<"Area of the Circle :"<<3.14*Radius*Radius<<endl;
+	}
+	void calculatePerimeter(){
+		getCir();
+		cout<<"Perimeter of the Circle :"<<6.28*Radius;
+	}
 };
-
-int main() {
-    Shape *a;
-    Rectangle b;
-  b.get1();
-  a=&b;
-  cout<<a->area()<<endl;
-  Circle c;
-  c.get2();
-  a=&c;
-  cout<<a->area()<<endl;
+int main(){	
+Shape *bptra,*bptrp;
+Rectangle R;
+bptra = &R;
+bptra->calculateArea();
+bptra->calculatePerimeter();
+Circle T;
+bptrp = &T;
+bptrp->calculateArea();
+bptrp->calculatePerimeter();
+return 0;
 }
