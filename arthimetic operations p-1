@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+main() {
+   int a,b,c;
+   cout<<"Enter the value of a:";
+   cin>>a;
+   cout<<"Enter the value of b:";
+   cin>>b;
+   
+   c = a + b;
+   cout<<"Addition:" << c << endl ;
+   
+   c = a - b;
+   cout<<"Subtraction:" << c << endl ;
+   
+   c = a * b;
+   cout<< "Multiplication:" << c << endl ;
+   
+   c = a / b;
+   cout <<"Division:" << c << endl ;
+   
+   c = a % b;
+   cout << "Modulus:" << c << endl ;
+   return 0;
+}
